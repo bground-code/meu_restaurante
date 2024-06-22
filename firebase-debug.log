@@ -1,0 +1,19 @@
+[debug] [2024-06-21T23:59:46.813Z] ----------------------------------------------------------------------
+[debug] [2024-06-21T23:59:46.814Z] Command:       /usr/local/bin/firebase /root/.cache/firebase/tools/lib/node_modules/firebase-tools/lib/bin/firebase projects:list --json
+[debug] [2024-06-21T23:59:46.814Z] CLI Version:   13.11.4
+[debug] [2024-06-21T23:59:46.814Z] Platform:      linux
+[debug] [2024-06-21T23:59:46.814Z] Node Version:  v18.5.0
+[debug] [2024-06-21T23:59:46.815Z] Time:          Fri Jun 21 2024 20:59:46 GMT-0300 (GMT-03:00)
+[debug] [2024-06-21T23:59:46.815Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-06-21T23:59:46.855Z] Object "" in "firebase.json" has unknown property: {"additionalProperty":"flutter"}
+[debug] [2024-06-21T23:59:46.857Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-06-21T23:59:46.858Z] > authorizing via signed-in user (caiquelacerda15@gmail.com)
+[debug] [2024-06-21T23:59:46.861Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=1000
+[debug] [2024-06-21T23:59:46.881Z] *** [apiv2] error from fetch(https://firebase.googleapis.com/v1beta1/projects?pageSize=1000, {"headers":{},"method":"GET","signal":{}}): FetchError: request to https://firebase.googleapis.com/v1beta1/projects?pageSize=1000 failed, reason: getaddrinfo EAI_AGAIN firebase.googleapis.com
+[debug] [2024-06-21T23:59:46.881Z] Failed to make request to https://firebase.googleapis.com/v1beta1/projects?pageSize=1000
+[debug] [2024-06-21T23:59:46.887Z] FirebaseError: Failed to make request to https://firebase.googleapis.com/v1beta1/projects?pageSize=1000
+    at RetryOperation._fn (/root/.cache/firebase/tools/lib/node_modules/firebase-tools/lib/apiv2.js:259:31)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to list Firebase projects. See firebase-debug.log for more info.

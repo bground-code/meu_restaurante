@@ -1,0 +1,1 @@
+ /home/kali/Downloads/quero_comer/.dart_tool/flutter_build/f0e287ce61a905cbefc65db7e9aca496/native_assets.yaml: 
